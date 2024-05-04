@@ -6,7 +6,7 @@ import ERC721ABI from './contract_abi/ERC721ABI.json'
 export const App = () => {
   const [account, setAccount] = useState<string>();
   const { sdk, connected, connecting, provider, chainId } = useSDK();
-  const URI = 'ipfs://QmX1y2z3a4b5c6d7e8f9g0h1i2j3k4l5m6n7o8p9q0r1s2t3u4v5w6x7y8z9a0b'
+  const URI = 'ipfs://QmX1y2z3a4b5c6d7e8f9g0h1i2j3k4l5m6n7o8p9q0r1s2t3u4v5w6x0y8z9a0b'
 
   const connect = async () => {
     try {
